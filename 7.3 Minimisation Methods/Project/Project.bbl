@@ -1,0 +1,149 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Caramanis}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={Caramanis},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{howpublished}{\url{https://people.cs.umass.edu/~barna/2015-BigData/conv2.pdf}}
+    \field{title}{EE 381V: Large Scale Optimization Fall 2012, Lecture 4}
+  \endentry
+
+  \entry{10.2307/2156398}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CAI}{%
+         family={Cohen},
+         familyi={C\bibinitperiod},
+         given={Arthur\bibnamedelima I.},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Society for Industrial}%
+      {Applied Mathematics}%
+    }
+    \strng{namehash}{CAI1}
+    \strng{fullhash}{CAI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Conjugate gradient algorithms are used to minimize nonlinear, nonquadratic,
+  real-valued functions on Rn. Rates of convergence are found for several of
+  these algorithms where the conjugate variable is reinitialized every r steps
+  (where r is greater than or equal to n). It is shown in a neighborhood of the
+  minimum that the error, when starting from a point of reinitialization,
+  decreases by order 2 after n steps.%
+    }
+    \field{issn}{00361429}
+    \field{number}{2}
+    \field{pages}{248\bibrangedash 259}
+    \field{title}{Rate of Convergence of Several Conjugate Gradient Algorithms}
+    \verb{url}
+    \verb http://www.jstor.org/stable/2156398
+    \endverb
+    \field{volume}{9}
+    \field{journaltitle}{SIAM Journal on Numerical Analysis}
+    \field{year}{1972}
+  \endentry
+
+  \entry{GlobalConvergence}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=PMJ}{%
+         family={Powell},
+         familyi={P\bibinitperiod},
+         given={Michael\bibnamedelima JD},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{PMJ1}
+    \strng{fullhash}{PMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{Numerical analysis}
+    \field{pages}{122\bibrangedash 141}
+    \field{title}{Nonconvex minimization calculations and the conjugate
+  gradient method}
+    \field{year}{1984}
+  \endentry
+
+  \entry{Powell2Var}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PM}{%
+         family={Powell},
+         familyi={P\bibinitperiod},
+         given={MJD},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{PM1}
+    \strng{fullhash}{PM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{number}{2}
+    \field{pages}{281\bibrangedash 301}
+    \field{title}{On the convergence of the DFP algorithm for unconstrained
+  optimization when there are only two variables}
+    \field{volume}{87}
+    \field{journaltitle}{Mathematical programming}
+    \field{year}{2000}
+  \endentry
+
+  \entry{111}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SJR}{%
+         family={Senning},
+         familyi={S\bibinitperiod},
+         given={Jonathan\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJR1}
+    \strng{fullhash}{SJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Computing and estimating the rate of convergence}
+    \verb{url}
+    \verb https://www.math-cs.gordon.edu/courses/ma342/handouts/rate.pdf
+    \endverb
+  \endentry
+\enddatalist
+\endinput

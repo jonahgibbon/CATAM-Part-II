@@ -1,0 +1,113 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{PermStuff}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CK}{%
+         family={Conrad},
+         familyi={C\bibinitperiod},
+         given={Keith},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CK1}
+    \strng{fullhash}{CK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Generating Sets}
+    \verb{url}
+    \verb https://kconrad.math.uconn.edu/blurbs/grouptheory/genset.pdf
+    \endverb
+  \endentry
+
+  \entry{DIXEN}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DJD}{%
+         family={Dixon},
+         familyi={D\bibinitperiod},
+         given={John\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJD1}
+    \strng{fullhash}{DJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1007/BF01110210
+    \endverb
+    \field{isbn}{1432-1823}
+    \field{number}{3}
+    \field{pages}{199\bibrangedash 205}
+    \field{title}{The probability of generating the symmetric group}
+    \verb{url}
+    \verb https://doi.org/10.1007/BF01110210
+    \endverb
+    \field{volume}{110}
+    \field{journaltitle}{Mathematische Zeitschrift}
+    \field{year}{1969}
+  \endentry
+
+  \entry{JERRUM198660}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JM}{%
+         family={Jerrum},
+         familyi={J\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JM1}
+    \strng{fullhash}{JM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    A data structure is presented which enables an arbitary permutation group
+  of degree n to be represented in O(n2) space. An algorithm is provided which,
+  given a permutation group specified in the usual way as a set of generators,
+  constructs the proposed representation in time O(n5). The data structure
+  supports fast membership testing, and is more economical than those
+  previously suggested, both in terms of its size and the time required for its
+  initialisation. Essential use is made of the proposed data structure in an
+  efficient algorithm for generating systems of coset representatives; this
+  algorithm may be used to solve certain instances of the so-called “isomorph
+  rejection” problem.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/0196-6774(86)90038-6
+    \endverb
+    \field{issn}{0196-6774}
+    \field{number}{1}
+    \field{pages}{60\bibrangedash 78}
+    \field{title}{A compact representation for permutation groups}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0196677486900386
+    \endverb
+    \field{volume}{7}
+    \field{journaltitle}{Journal of Algorithms}
+    \field{year}{1986}
+  \endentry
+\enddatalist
+\endinput
