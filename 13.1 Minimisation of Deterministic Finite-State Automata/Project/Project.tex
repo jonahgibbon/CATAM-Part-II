@@ -20,7 +20,6 @@
 \usepackage{diagbox}
 \addbibresource{References.bib}
   
-\author{Jonah Gibbon}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -35,6 +34,23 @@
 \newcommand{\R}{\mathbb{R}}
 
 \begin{document}
+\begin{titlepage}
+	\centering
+	\vspace*{5cm}
+	{\large{University of Cambridge} \par}
+	\vspace{1cm}
+	{\Large \textsc{Part II CATAM Project}\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Minimisation of Deterministic Finite-State Automata\par}
+	\vspace{2cm}
+	{\Large Jonah M. Gibbon\\ \vspace{0.6cm} April, 2022}
+	\vfill
+	
+
+
+% Bottom of the page
+	{Submitted in the fulfilment of the Mathematical Tripos, Part II.}
+\end{titlepage}
 
 \subsection*{\centering Question 1}
 In order to count the number of possible $(n,k)$-DFAs, we first examine a single state with alphabet $k$. Each letter can be directed to all $n$ states, so there are $n$ options for a single letter, and so $n^{k}$ for the complete alphabet. This applies to each state, so there are $n^{nk}$ ways of transitioning between each state. Each state can be an accepting or rejecting state, which can be chosen in a total of $2^{n}$ ways. We therefore conclude that the total number of $(n,k)$-DFAs is 
